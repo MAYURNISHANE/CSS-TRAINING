@@ -2,6 +2,11 @@ header{
     background-color: cyan;
     overflow: hidden;
 }
+.logo{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
 nav{
     background-color: beige;
     overflow: hidden;
