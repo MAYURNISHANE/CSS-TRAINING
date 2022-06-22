@@ -1,0 +1,13 @@
+header{
+    background-color: cyan;
+    overflow: hidden;
+}
+nav{
+    background-color: beige;
+    overflow: hidden;
+    text-align: center;
+}
+nav li{
+   display: inline-block; 
+   width: 24%;
+}

@@ -1,0 +1,20 @@
+header{
+    background-color: crimson;
+    color: greenyellow;
+    height: 100px;
+}
+nav{
+    background-color: aquamarine;
+    color: blue;
+    height: 150px;
+}
+main{ 
+    background-color: darkolivegreen;
+    color: chartreuse;
+    height: 400px;
+}
+footer{
+    background-color: springgreen;
+    color: fuchsia;
+    height: 100px;
+}
