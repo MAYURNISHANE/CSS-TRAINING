@@ -1,18 +1,54 @@
-header{
+header {
     background-color: cyan;
     overflow: hidden;
 }
-.logo{
+
+.logo {
     float: left;
-    width: 150px;
-    height: 150px;
 }
-nav{
+
+.search {
+    float: right;
+}
+
+nav {
     background-color: beige;
     overflow: hidden;
+
+}
+
+.demo {
     text-align: center;
 }
-nav li{
-   display: inline-block; 
-   width: 24%;
+
+nav li {
+    display: inline-block;
+    width: 15%;
+}
+
+main {
+    height: 25%;
+    overflow: hidden;
+}
+
+.menu {
+    float: left;
+    overflow: hidden;
+    width: 20%;
+}
+
+.banner {
+    float: left;
+    height: 50%;
+    width: 50%;
+    overflow: hidden;
+}
+
+.banner-jpg {
+    padding: 2px;
+}
+
+footer {
+    background-color: cyan;
+    text-align: center;
 }
