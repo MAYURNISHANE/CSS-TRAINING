@@ -1,0 +1,69 @@
+.body {
+    background-color: aqua;
+    margin: 0;
+}
+
+.header {
+    background-color: darkgreen;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+}
+
+.company-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.search {
+    float: right;
+}
+
+.nav {
+    background-color: cyan;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.main {
+    background-color: darkseagreen;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.row {
+    overflow: hidden;
+}
+
+.clm {
+    float: left;
+    width: 33.33%;
+    border: 1px solid rebeccapurple;
+    box-sizing: border-box;
+}
+
+.row2 .clm1 {
+    width: 20%;
+}
+
+.img1 {
+    width: 100%;
+}
+
+.row2 .clm2 {
+    width: 50%;
+}
+
+.row2 .clm3 {
+    width: 30%;
+}
+
+.footer {
+    background-color: darkolivegreen;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
