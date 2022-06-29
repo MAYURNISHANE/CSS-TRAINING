@@ -1,0 +1,86 @@
+.body {
+    margin: 0;
+    background-image: url(../../../html-training/16062022/img.jpg);
+    background-size: 100%;
+}
+
+.main {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.left-clm {
+    background-color: brown;
+    float: left;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+.div {
+    padding: 5px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.img1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+
+.main-link {
+    border-bottom: 2px solid violet;
+    padding: 10px 10px;
+}
+
+.main-link:hover {
+    background-color: white;
+    color: azure;
+}
+
+.logo {
+    padding: 50px;
+}
+
+.logo1 {
+    width: 25px;
+    height: 25px;
+}
+
+.footer1 {
+    padding: 50px;
+}
+
+.footer2 {
+    padding: 20px;
+}
+
+.right-clm {
+    float: right;
+    width: calc(100% - 300px);
+    overflow: hidden;
+    text-align: center;
+}
+
+.img {
+    border-radius: 10px;
+}
+
+.clm {
+    overflow: hidden;
+}
+
+.clm1 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.clm2 {
+    width: 50%;
+    float: left;
+}

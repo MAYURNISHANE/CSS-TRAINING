@@ -1,6 +1,6 @@
 .body {
     background-color: darkolivegreen;
-    border: 0px auto;
+    margin: 0px;
 }
 
 .header {
@@ -14,8 +14,18 @@
     float: left;
 }
 
+.company-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
 .search {
     float: right;
+}
+
+.search:hover {
+    color: lightgreen;
 }
 
 .nav {
@@ -31,6 +41,12 @@
     padding: 10px;
     display: inline-block;
     margin: 0 5px;
+    border-radius: 20px;
+}
+
+.nav-link:hover {
+    background-color: orange;
+    color: paleturquoise;
 }
 
 .main {
@@ -49,13 +65,21 @@
     padding: 5px 10px;
 }
 
+.main-link:hover {
+    background-color: darkgreen;
+    color: azure;
+}
+
 .main-middle {
     float: left;
     width: 55%;
+    text-align: center;
 }
 
 .banner {
     width: 100%;
+    margin: 0 5px;
+    border-radius: 20px;
 }
 
 .main-right {
@@ -66,9 +90,15 @@
 
 .laptop {
     border: 2px solid greenyellow;
-    width: 100px;
+    width: 150px;
     display: inline-block;
     margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.laptop:hover {
+    background-color: cyan;
 }
 
 .laptop-img {
@@ -76,7 +106,7 @@
     height: 100px;
     display: inline-block;
     border: 5x solid blue;
-    padding: 10px;
+    border-radius: 10px;
 
 }
 

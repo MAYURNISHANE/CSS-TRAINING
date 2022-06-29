@@ -1,0 +1,24 @@
+.body {
+    background-color:pink;
+}
+.header {
+    background-color: brown;
+    text-align: center;
+    color: chartreuse;
+    position: fixed;
+    padding: 5px;
+    width: 100%;
+}
+.nav {
+    background-color: forestgreen;
+    padding: 30px;
+}
+.product .product1 {
+    display: none;
+    background-color: honeydew;
+    width: 150px;
+    position: absolute;
+}
+.product:hover .product1 {
+    display: block;
+}

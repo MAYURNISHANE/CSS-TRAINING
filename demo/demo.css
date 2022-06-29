@@ -1,0 +1,51 @@
+.body {
+    background-color: tan;
+}
+
+.header {
+    background-color: red;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav {
+    background-color: violet;
+    padding: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.demo {
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main {
+    background-color: darkcyan;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.main-left {
+    float: left;
+    width: 30%;
+}
+
+.main-middle {
+    float: left;
+    width: 35%;
+}
+
+.main-right {
+    float: left;
+    width: 30%;
+}
+
+.footer {
+    background-color: gold;
+    padding: 10px;
+    text-align: center;
+}
