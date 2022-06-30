@@ -1,0 +1,54 @@
+.body {
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    padding: 20px;
+    color: azure;
+    margin: auto;
+    overflow: hidden;
+    max-width: 1000px;
+    border: 1px solid blue;
+}
+
+.logo {
+    float: left;
+    width: 50%;
+}
+
+.link {
+    float: left;
+    width: 50%;
+    background-color: darkslategray;
+    width: 500px;
+}
+
+.main {
+    width: 1000px;
+    border: 1px solid blue;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.div2 {
+    width: 960px;
+    height: 360px;
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;
+
+}
+
+.div3 {
+    margin: 15px;
+}
+
+.inner-div {
+    float: left;
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}

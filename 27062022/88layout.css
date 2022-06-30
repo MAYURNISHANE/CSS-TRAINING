@@ -1,0 +1,96 @@
+.body {
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    padding: 20px;
+    color: azure;
+    margin: auto ;
+    overflow: hidden;
+    max-width: 1000px;
+    border: 1px solid blue;
+}
+
+.logo {
+    float: left;
+    width: 50%;
+}
+
+.link {
+    float: left;
+    width: 50%;
+    background-color: darkslategray;
+    width: 500px;
+}
+
+.main {
+    width: 1000px;
+    border: 1px solid blue;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.div2 {
+    width: 960px;
+    height: 360px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.div3 {
+    margin: 15px;
+}
+
+.inner-div {
+    float: left;
+    width: 33.33%;
+    color: black;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.more {
+    float: right;
+    background-color: azure;
+}
+.letter {
+    text-decoration: none;
+}
+.div4 {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: left;
+    width: 450px;
+    height: 250px;
+}
+.footer {
+    background-color: black;
+    padding: 20px;
+    color: azure;
+    margin: auto;
+    overflow: hidden;
+    max-width: 1000px;
+    border: 1px solid blue; 
+}
+.inner-footer {
+    float: left;
+    width: 25%;
+}
+.li {
+    border-bottom: 2px solid violet;
+    padding: 5px 10px;
+    list-style: none;
+}
