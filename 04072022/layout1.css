@@ -1,0 +1,36 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav1 {
+    max-width: 100%;
+    background-color: #F2F2F2;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.div1 {
+    width: auto;
+}
+
+.clm {
+    width: 50%;
+    float: left;
+}
+
+.clm1 {
+    float: left;
+}
+.img {
+    width: 22px;
+}
+.inner-div {
+    float: left;
+    padding: 15px;
+}
+.contact {
+    float: left;
+}
+.img1 {
+    width: 25px;
+}

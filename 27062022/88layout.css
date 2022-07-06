@@ -6,7 +6,7 @@
     background-color: black;
     padding: 20px;
     color: azure;
-    margin: auto ;
+    margin: auto;
     overflow: hidden;
     max-width: 1000px;
     border: 1px solid blue;
@@ -32,11 +32,11 @@
 }
 
 .div2 {
-    width: 960px;
+    max-width: 960px;
     height: 360px;
     background-color: black;
     color: white;
-    margin: auto;
+    margin: 0 auto;
     padding: 20px;
 
 }
@@ -47,7 +47,7 @@
 
 .inner-div {
     float: left;
-    width: 33.33%;
+    max-width: 33.33%;
     color: black;
     margin: auto;
     padding: 10px;
@@ -58,9 +58,11 @@
     float: right;
     background-color: azure;
 }
+
 .letter {
     text-decoration: none;
 }
+
 .div4 {
     margin: 20px 0;
     padding: 10px;
@@ -76,9 +78,10 @@
     width: 450px;
     height: 250px;
     z-index: 1;
-    background-color:red;
+    background-color: red;
     opacity: 240%;
 }
+
 .footer {
     background-color: black;
     padding: 20px;
@@ -86,14 +89,33 @@
     margin: auto;
     overflow: hidden;
     max-width: 1000px;
-    border: 1px solid blue; 
+    border: 1px solid blue;
 }
+
 .inner-footer {
     float: left;
     width: 25%;
 }
+
 .li {
     border-bottom: 2px solid violet;
     padding: 5px 10px;
     list-style: none;
+}
+
+@media (max-width:480px) {
+    .header {
+        background-color: beige;
+        color: red;
+        width: 1000px;
+    }
+
+    .footer {
+        width: 1000px;
+    }
+
+    .inner-footer {
+        float: left;
+        width: 50%;
+    }
 }

@@ -1,0 +1,61 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.footer {
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+    color: #00095B;
+    background-color: white;
+}
+
+.div1 .div2 {
+    width: 1200px;
+    margin: auto;
+}
+
+.inner-div {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.inner-text {
+    margin-bottom: 10px;
+}
+
+.img1 {
+    width: 13px;
+}
+
+.text {
+    margin-top: 59px;
+}
+
+.logo {
+    width: 35px;
+}
+
+.inner-footer {
+    max-width: 1400px;
+    margin: auto;
+    background-color: #00095B;
+    color: white;
+    overflow: hidden;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.inner-div2 {
+    float: left;
+    padding: 15px;
+}
+
+.inner-one {
+    padding-left: 0;
+}
+.inner-div2_text {
+    float: left;
+}

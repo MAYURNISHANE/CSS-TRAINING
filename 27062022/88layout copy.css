@@ -6,7 +6,7 @@
     background-color: black;
     padding: 20px;
     color: azure;
-    margin: auto ;
+    margin: auto;
     overflow: hidden;
     max-width: 1000px;
     border: 1px solid blue;
@@ -31,46 +31,60 @@
     overflow: hidden;
 }
 
-.div2 {
-    width: 960px;
+.inner-main {
     height: 360px;
     background-color: black;
     color: white;
     margin: auto;
     padding: 20px;
-
+    position: relative;
 }
 
-.div3 {
-    margin: 15px;
+.div2 {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    top: 180px;
 }
 
-.inner-div {
+.banner {
+    margin-top: 10px;
     float: left;
     width: 33.33%;
+    height: 360px;
     color: black;
-    margin: auto;
+    color: white;
     padding: 10px;
     box-sizing: border-box;
+    overflow: hidden;
+    margin: auto;
 }
-.banner {
-    height: 280px;
-    background-color: black;
-    color: white;
+
+.banner-text {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    left: 0;
     text-align: center;
-    top: 40pxpx;
+    top: 160px;
+    overflow: hidden;
 }
 
 .more {
     float: right;
     background-color: azure;
 }
+
 .letter {
     text-decoration: none;
 }
+
 .div4 {
     margin: 20px 0;
     padding: 10px;
+    overflow: hidden;
 }
 
 .left {
@@ -83,6 +97,7 @@
     width: 450px;
     height: 250px;
 }
+
 .footer {
     background-color: black;
     padding: 20px;
@@ -90,14 +105,19 @@
     margin: auto;
     overflow: hidden;
     max-width: 1000px;
-    border: 1px solid blue; 
+    border: 1px solid blue;
 }
+
 .inner-footer {
     float: left;
     width: 25%;
 }
+
 .li {
     border-bottom: 2px solid violet;
     padding: 5px 10px;
     list-style: none;
+}
+.main-footer1 {
+    text-align: center;
 }
