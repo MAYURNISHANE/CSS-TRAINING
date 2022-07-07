@@ -59,3 +59,7 @@
 .inner-div2_text {
     float: left;
 }
+.upper-arrow {
+    float: right;
+    padding-right: 30px;
+}
