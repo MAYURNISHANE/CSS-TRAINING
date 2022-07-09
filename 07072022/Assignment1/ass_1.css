@@ -1,0 +1,40 @@
+.body {
+    margin: 0;
+}
+.header {
+    max-width: 1250px;
+    margin: 10px auto;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+.inner-header {
+    display: flex;
+    padding: 10px;
+}
+.width_40 {
+    width: 40%;
+}
+.width_60 {
+    width: 60%;
+    display: flex;
+}
+.right1 {
+    margin-right: 20px;
+}
+.h3 {
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 3px;
+    background-color: green;
+    color: white;
+}
+.h3_1 {
+    background-color: blueviolet;
+}
+.h3_2 {
+    background-color:red ;
+}
+.img_in {
+    padding: 5px;
+}

@@ -12,9 +12,11 @@
     width: auto;
 }
 
-.td1,
-.td2 {
-    width: 50%;
+.td1 {
+    width: 30%;
+}
+.td {
+    width: 70%;
 }
 
 .logo {

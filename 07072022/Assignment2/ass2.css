@@ -1,0 +1,64 @@
+.body {
+    margin: o;
+}
+
+.header {
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.inner-head_section {
+    float: left;
+    width: 10%;
+}
+.img-text {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.img1 {
+    width: 80px;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.width-70 {
+    float: left;
+    width: 75%;
+    overflow: hidden;
+}
+
+.inner_width-70 {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.border1 {
+    border-top: 2px solid gray;
+}
+
+.width-30 {
+    float: left;
+    width: 25%;
+    overflow: hidden;
+}
+.img3 {
+    float: left;
+    width: 50%;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+.h2, .last-text {
+    border: 1px solid white;
+    background-color: grey;
+    overflow: hidden;
+    padding: 10px;
+}
