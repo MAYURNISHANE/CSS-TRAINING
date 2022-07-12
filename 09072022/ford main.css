@@ -1,0 +1,30 @@
+.body {
+    margin: 0;
+}
+
+.main {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    background-color: bisque;
+}
+
+.main-left {
+    padding: 20px;
+    width: 75%;
+}
+
+.main-right {
+    padding: 20px;
+    width: 25%;
+    background-color: whitesmoke;
+}
+.right-h2 {
+    padding: 0;
+}
+.right-h2_list {
+    display: flex;
+}
+.right-h3 {
+    padding: 0;
+}

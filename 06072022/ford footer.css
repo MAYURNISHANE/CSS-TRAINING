@@ -4,16 +4,14 @@
 }
 
 .footer {
-    max-width: 1400px;
+    background-color: whitesmoke;
+}
+
+.footer1 {
+    max-width: 1300px;
     margin: auto;
     overflow: hidden;
     color: #00095B;
-    background-color: white;
-}
-
-.div1 .div2 {
-    width: 1200px;
-    margin: auto;
 }
 
 .inner-div {
@@ -27,7 +25,8 @@
 }
 
 .img1 {
-    width: 13px;
+    width: 20px;
+    vertical-align: middle;
 }
 
 .text {
@@ -35,16 +34,17 @@
 }
 
 .logo {
-    width: 35px;
+    width: 30px;
+    vertical-align: middle;
 }
 
 .inner-footer {
-    max-width: 1400px;
+    max-width: 1500px;
     margin: auto;
     background-color: #00095B;
     color: white;
     overflow: hidden;
-    padding: 30px;
+    padding: 15px;
     margin-top: 30px;
 }
 
@@ -56,9 +56,19 @@
 .inner-one {
     padding-left: 0;
 }
+
 .inner-div2_text {
     float: left;
 }
+
 .upper-arrow {
     float: right;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 5px 10px;
+}
+
+.arrow {
+    font-size: larger;
+    font-weight: bolder;
 }

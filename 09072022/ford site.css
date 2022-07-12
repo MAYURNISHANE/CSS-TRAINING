@@ -1,0 +1,563 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: whitesmoke;
+}
+
+.top-header,
+.nav1 {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.logos {
+    width: 20%;
+}
+
+.links,
+.nav-links {
+    width: 100%;
+    text-align: right;
+}
+
+.logo1 {
+
+    vertical-align: middle;
+}
+
+.contact-img {
+    width: 25px;
+    vertical-align: middle;
+}
+
+.link-text {
+    text-decoration: none;
+    margin-right: 30px;
+    color: gray;
+
+}
+
+.inner-nav {
+    width: 18%;
+}
+
+.link-text1,
+.main-left_link {
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.search-img {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.nav2 {
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: #DA7029;
+    padding: 15px;
+    display: flex;
+}
+
+.nav-logo {
+    border: 1px solid white;
+    padding: 1px 8px;
+    border-radius: 100%;
+    background-color: whitesmoke;
+    color: #DA7029;
+
+}
+
+.nav-logo_text {
+    color: aliceblue;
+    margin-left: 5px;
+}
+
+.nav2 {
+    box-shadow: 1px 3px 9px 4px black;
+}
+
+.down-nav_left {
+    width: 40%;
+}
+
+.x {
+    width: 100%;
+    text-align: right;
+}
+
+.inner-x {
+    font-size: larger;
+    color: aliceblue;
+}
+
+.main {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.inner-main {
+    display: flex;
+    margin: 0 15px;
+}
+
+.main-left {
+    width: 100%;
+    vertical-align: middle;
+    padding-top: 50px;
+    margin-right: 20px;
+}
+
+.main-left_link {
+    margin-right: 25px;
+}
+
+.main-left_links :hover {
+    text-decoration-line: underline;
+}
+
+
+.main-left_1 {
+    display: flex;
+    box-shadow: 10px 6px 5px 2px gainsboro;
+    background-color: snow;
+    margin-top: 30px;
+}
+
+.main-left_photo {
+    width: 500px;
+}
+
+.main-left_photo1 {
+    width: 100%;
+    text-align: left;
+}
+
+.block {
+    margin-bottom: 15px;
+}
+
+.today-div {
+    margin-top: 20px;
+}
+
+.block1 {
+    border-bottom: 1px solid grey;
+    padding-bottom: 40px;
+}
+
+.today-div {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.upcoming {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.view-block {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.view-arrow {
+    border: 1px solid green;
+    border-radius: 100%;
+    padding: 1px 3px;
+    background-color: #00095B;
+    color: azure;
+}
+
+.anno-block {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.inner-block {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.ford-car1 {
+    width: 300px;
+}
+
+.main-ford,
+.main-ford1 {
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid greenyellow;
+    background: #00095B;
+    color: aliceblue;
+    margin: 10px
+}
+
+.ford-logo,
+.ford-img1 {
+    width: 100px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.ford-down_text {
+    text-align: center;
+}
+
+.ford-down_left-arrow,
+.ford-down_right-arrow {
+    border: 1px solid;
+    padding: 2px 3px;
+    background-color: gray;
+    color: white;
+}
+
+.ford-down_left-right_middle {
+    margin: 0 3px;
+}
+
+.ford-down_right-arrow {
+    background-color: #00095B;
+    padding: 2px 5px;
+}
+
+.video-tag_shadow {
+    box-shadow: 3px 2px 7px 3px whitesmoke;
+}
+
+.video-tag {
+    margin-top: 10px;
+    display: flex;
+}
+
+.video-tag_text {
+    color: #00095B;
+    width: 50%;
+    font-size: 25px;
+}
+
+.video-tag_select {
+    width: 50%;
+    text-align: right;
+}
+
+.select {
+    color: gray;
+    padding: 5px;
+}
+
+.video-text {
+    padding: 15px 15px;
+}
+
+.video-text_inner {
+    font-weight: bold;
+    font-size: large;
+}
+
+.video-para {
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+
+}
+
+.video-like {
+    margin: 10px 0;
+}
+
+.video-like_button {
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.like-button {
+    vertical-align: middle;
+    width: 25px;
+}
+
+.border-block {
+    margin-top: 40px;
+    display: flex;
+    background-image: url(./ford\ car2.png);
+    padding: 50px;
+}
+
+.border-block_text {
+    width: 50%;
+    color: green;
+}
+
+.border-block_tex2 {
+    margin: 20px 0;
+}
+
+.border-block_img {
+    width: 50%;
+    text-align: right;
+}
+
+.ford-car2 {
+    width: 370px;
+}
+
+.border-block1 {
+    margin-top: 40px;
+    display: flex;
+    box-shadow: 1px 4px 7px 4px whitesmoke;
+}
+
+.span-block1 {
+    width: 30%;
+}
+
+.block-img_text {
+    font-size: 25px;
+}
+
+.ford-car3 {
+    width: 300px;
+}
+
+.span-block1_2 {
+    width: 100%;
+    text-align: right;
+}
+
+.border-block_tex_1-2 {
+    text-align: left;
+    margin-top: 60px;
+    padding-left: 20px;
+}
+
+.text-b {
+    margin: 40px 0;
+    border-bottom: 1px solid grey;
+    padding-bottom: 50px;
+}
+
+.car-block3 {
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.car-block3_1 {
+    width: 33.33%;
+    margin: 10px;
+    padding: 0;
+    box-shadow: 0 3px 8px 1px;
+}
+
+.block3-img {
+    width: 300px;
+    height: 160px;
+}
+
+.common-block3 {
+    margin-left: 10px;
+}
+
+.block3-img_para {
+    margin: 30px 10px;
+}
+
+.block3-img_date {
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.share {
+    padding-left: 20px;
+}
+
+.last-main {
+    margin: 30px 0;
+    border-bottom: 1px solid gray;
+    padding-bottom: 40px;
+}
+
+.at-theret {
+    border: 1px solid;
+    padding: 3px 5px;
+    font-size: 25px;
+    font-weight: lighter;
+    color: white;
+    background-color: #00095B;
+    border-radius: 9px;
+}
+
+.at-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00095B;
+}
+.bottom_margin-top {
+    margin-top: 15px;
+}
+.bottom-text {
+    border-bottom: 1px solid gray;
+    display: flex;
+}
+.left-img {
+    width: 280px;
+}
+.img-bottom {
+    width: 270px;
+}
+.left-img_text {
+    margin-top: 30px;
+}
+.left-img_text1 {
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+.main-right {
+    width: 25%;
+    background-color: whitesmoke;
+    padding: 10px;
+    padding-top: 40px;
+}
+
+.main-right_heading {
+    border-bottom: 1px solid grey;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 10px;
+}
+
+.main-right_text {
+    border-bottom: 1px solid grey;
+    padding: 15px 0;
+}
+
+.main-right_text {
+    display: flex;
+}
+
+.text-right {
+    width: 100%;
+}
+
+.arrow-left {
+    width: 40px;
+    text-align: right;
+    transform: rotate(-180deg);
+    margin-bottom: 40px;
+}
+
+.j {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #00095B;
+    font-weight: bold;
+}
+
+.g {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.d {
+    margin-left: 32px;
+}
+
+.right-last {
+    margin-top: 30px;
+    border: 1px solid;
+    background-color: #00095B;
+    padding: 20px 40px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.submit-input {
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+    color: #00095B;
+}
+
+.footer {
+    background-color: whitesmoke;
+}
+
+.footer1 {
+    max-width: 1300px;
+    margin: auto;
+    overflow: hidden;
+    color: #00095B;
+}
+
+.inner-div {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.inner-text {
+    margin-bottom: 10px;
+}
+
+.img1 {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.text {
+    margin-top: 59px;
+}
+
+.logo {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.inner-footer {
+    max-width: 1500px;
+    margin: auto;
+    background-color: #00095B;
+    color: white;
+    overflow: hidden;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.inner-div2 {
+    float: left;
+    padding: 15px;
+}
+
+.inner-one {
+    padding-left: 0;
+}
+
+.inner-div2_text {
+    float: left;
+}
+
+.upper-arrow {
+    float: right;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 5px 10px;
+}
+
+.arrow {
+    font-size: larger;
+    font-weight: bolder;
+}
