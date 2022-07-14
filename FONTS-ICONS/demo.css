@@ -1,0 +1,25 @@
+.icon-clock {
+    font-size: 90px;
+}
+
+.icon-clock:hover {
+    background-color: brown;
+}
+
+.icon-clock:focus {
+    background-color: gold;
+}
+
+li:nth-child(even) {
+    background-color: black;
+    color: aliceblue;
+}
+
+li:nth-child(5) {
+    font-size: 50px;
+    background-color: red;
+}
+li:last-child {
+    font-size: 90px;
+    background-color: darkgreen;
+}

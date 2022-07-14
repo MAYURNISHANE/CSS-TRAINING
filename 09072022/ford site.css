@@ -65,6 +65,8 @@
     background-color: #DA7029;
     padding: 15px;
     display: flex;
+    box-shadow: 5px 5px 9px -3px black;
+    position: relative;
 }
 
 .nav-logo {
@@ -79,10 +81,6 @@
 .nav-logo_text {
     color: aliceblue;
     margin-left: 5px;
-}
-
-.nav2 {
-    box-shadow: 1px 3px 9px 4px black;
 }
 
 .down-nav_left {
@@ -110,7 +108,7 @@
 }
 
 .main-left {
-    width: 100%;
+    width: 80%;
     vertical-align: middle;
     padding-top: 50px;
     margin-right: 20px;
@@ -183,6 +181,7 @@
 .anno-block {
     margin-top: 40px;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .inner-block {
@@ -349,38 +348,35 @@
 }
 
 .car-block3 {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
 
 }
 
 .car-block3_1 {
     width: 33.33%;
-    margin: 10px;
-    padding: 0;
+    margin:0 5px ;
+    padding: 0 5px;
     box-shadow: 0 3px 8px 1px;
 }
 
 .block3-img {
-    width: 300px;
-    height: 160px;
+    width: 250px;
+    height: 140px;
+    box-sizing:border-box ;
 }
 
 .common-block3 {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .block3-img_para {
-    margin: 30px 10px;
+    padding: 30px 10px;
 }
 
 .block3-img_date {
     border-bottom: 1px solid gray;
-    padding-bottom: 20px;
-}
-
-.share {
-    padding-left: 20px;
+    padding-bottom: 30px;
 }
 
 .last-main {
@@ -404,29 +400,36 @@
     font-weight: bold;
     color: #00095B;
 }
+
 .bottom_margin-top {
     margin-top: 15px;
 }
+
 .bottom-text {
     border-bottom: 1px solid gray;
     display: flex;
 }
+
 .left-img {
     width: 280px;
 }
+
 .img-bottom {
     width: 270px;
 }
+
 .left-img_text {
     margin-top: 30px;
 }
+
 .left-img_text1 {
     font-weight: bold;
     font-size: medium;
     margin-bottom: 20px;
 }
+
 .main-right {
-    width: 25%;
+    width: 20%;
     background-color: whitesmoke;
     padding: 10px;
     padding-top: 40px;

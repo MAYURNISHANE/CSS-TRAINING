@@ -1,0 +1,8 @@
+@font-face {
+    font-family: rubic;
+    src: url(./RubikMoonrocks-Regular.ttf);
+}
+.font {
+    font-family: rubic;
+    font-size: 30px;
+}
