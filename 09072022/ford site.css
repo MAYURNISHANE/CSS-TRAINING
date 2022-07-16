@@ -125,7 +125,7 @@
 
 .main-left_1 {
     display: flex;
-    box-shadow: 10px 6px 5px 2px gainsboro;
+    box-shadow: 4px 4px 4px 0 gainsboro;
     background-color: snow;
     margin-top: 30px;
 }
@@ -143,30 +143,28 @@
     margin-bottom: 15px;
 }
 
-.today-div {
-    margin-top: 20px;
-}
-
 .block1 {
     border-bottom: 1px solid grey;
-    padding-bottom: 40px;
+    padding-bottom: 65px;
 }
 
 .today-div {
-    font-weight: bold;
-    font-size: medium;
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 13px;
 }
 
 .upcoming {
     font-size: 25px;
-    font-weight: bold;
+    color: #00095B;
 
 }
 
 .view-block {
     text-transform: capitalize;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
+    color: #00095B;
 
 }
 
@@ -219,18 +217,18 @@
 .ford-down_left-arrow,
 .ford-down_right-arrow {
     border: 1px solid;
-    padding: 2px 3px;
+    padding: 2px 5px;
     background-color: gray;
     color: white;
 }
 
 .ford-down_left-right_middle {
     margin: 0 3px;
+    font-size: small;
 }
 
 .ford-down_right-arrow {
     background-color: #00095B;
-    padding: 2px 5px;
 }
 
 .video-tag_shadow {
@@ -342,28 +340,28 @@
 }
 
 .text-b {
-    margin: 40px 0;
+    margin: 30px 0;
     border-bottom: 1px solid grey;
-    padding-bottom: 50px;
+    padding-bottom: 90px;
 }
 
 .car-block3 {
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
 
 }
 
 .car-block3_1 {
     width: 33.33%;
-    margin:0 5px ;
+    margin: 0 5px;
     padding: 0 5px;
-    box-shadow: 0 3px 8px 1px;
+    box-shadow: 4px 4px 4px 4px whitesmoke;
 }
 
 .block3-img {
-    width: 250px;
+    width: 100%;
     height: 140px;
-    box-sizing:border-box ;
+    box-sizing: border-box;
 }
 
 .common-block3 {
@@ -371,10 +369,11 @@
 }
 
 .block3-img_para {
-    padding: 30px 10px;
+    padding: 20px 10px;
 }
 
 .block3-img_date {
+    padding-left: 10px;
     border-bottom: 1px solid gray;
     padding-bottom: 30px;
 }
@@ -412,6 +411,7 @@
 
 .left-img {
     width: 280px;
+    height: 135px;
 }
 
 .img-bottom {
@@ -437,8 +437,9 @@
 
 .main-right_heading {
     border-bottom: 1px solid grey;
-    font-weight: bolder;
-    font-size: larger;
+    font-weight: bold;
+    font-size: 22px;
+    color: #00095B;
     padding: 10px;
 }
 
@@ -456,26 +457,20 @@
 }
 
 .arrow-left {
-    width: 40px;
     text-align: right;
-    transform: rotate(-180deg);
-    margin-bottom: 40px;
+    font-size: 20px;
 }
 
 .j {
-    font-size: 13px;
+    font-size: 15px;
     text-transform: uppercase;
     color: #00095B;
     font-weight: bold;
 }
 
-.g {
-    vertical-align: middle;
-    text-align: center;
-}
-
 .d {
-    margin-left: 32px;
+    margin-left: 22px;
+    font-size: small;
 }
 
 .right-last {
