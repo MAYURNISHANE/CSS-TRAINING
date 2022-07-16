@@ -13,42 +13,52 @@
     width: 75%;
     margin: 0 10px;
 }
+
 .upcoming-holiday_tabs-link {
     text-decoration: none;
     padding-right: 20px;
 }
+
 .upcoming-holiday_tabs :hover {
     text-decoration: underline;
 }
+
 .upcoming-holiday_content {
     margin: 35px 0;
     display: flex;
 }
+
 .upcoming-holiday_left-img {
     width: 300px;
     float: left;
 }
+
 .upcoming-holiday_right {
     width: 100%;
     box-shadow: 4px 4px 4px 0 #f1f1f1;
     padding: 18px 10px 10px 20px;
     position: relative;
 }
+
 .upcoming-h3 {
     font-size: 12px;
     text-transform: uppercase;
     color: gray;
     margin: 0;
 }
+
 .upcoming-h2 {
     margin: 10px 0;
     font-size: 24px;
     font-weight: normal;
     color: #00095B;
 }
-.upcoming-h3_1, .anno-heading {
+
+.upcoming-h3_1,
+.anno-heading {
     color: #00095B;
 }
+
 .upcoming-share_section {
     border-top: 1px solid grey;
     position: absolute;
@@ -56,36 +66,95 @@
     width: calc(100% - 40px);
     padding: 10px 0;
 }
+
 .anno-heading {
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0;
 }
+
 .anno-2section {
     display: flex;
 }
+
 .anno-left {
     margin-right: 10px;
 }
-.anno-left, .anno-right {
+
+.anno-left,
+.anno-right {
     width: 50%;
     background-color: #00095B;
     color: white;
     display: flex;
 }
+
 .anno-left_img {
     float: left;
     width: 110px;
     height: 110px;
 }
+
 .anno-para {
     margin-left: 15px;
     font-weight: bold;
 }
+
 .anno-navigator {
     text-align: center;
     margin: 15px 0;
 }
+
+.video-section {
+    margin-top: 20px;
+    box-shadow: 4px 4px 4px 0 #f1f1f1;
+}
+
+.news-block_right {
+    font-size: 22px;
+    color: #00095B;
+    font-weight: lighter;
+}
+
+.select {
+    float: right;
+    text-align: left;
+    padding: 10px 30px;
+}
+.video-h3 {
+    color: #00095B;
+}
+.video-share {
+    margin-top: 30px;
+    border-top: 1px solid grey;
+    padding: 10px 0;
+    width: calc(100% - 10px);
+}
+.border-block {
+    margin-top: 40px;
+    display: flex;
+    background-image: url(./ford\ car2.png);
+    padding: 50px;
+}
+
+.border-block_text {
+    width: 50%;
+    color: green;
+}
+
+.border-block_tex2 {
+    margin: 20px 0;
+}
+
+.border-block_img {
+    width: 50%;
+    text-align: right;
+}
+
+.ford-car2 {
+    width: 370px;
+}
+
 
 .main-right {
     padding: 30px 10px;
@@ -100,6 +169,7 @@
     padding-bottom: 10px;
     border-bottom: 1px solid grey;
 }
+
 .right-h_list {
     display: flex;
 }
@@ -109,17 +179,20 @@
     padding: 20px 0;
     border-bottom: 1px solid grey;
 }
+
 .right-h_list-text {
-    width:80%;
+    width: 80%;
     padding: 20px 0;
     border-bottom: 1px solid grey;
 }
+
 .right-h_list-arrow {
     width: 15%;
     text-align: right;
     padding: 20px 0;
     border-bottom: 1px solid grey;
 }
+
 .right-last {
     margin-top: 30px;
     border: 1px solid;
