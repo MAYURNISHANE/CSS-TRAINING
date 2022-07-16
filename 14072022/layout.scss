@@ -1,0 +1,18 @@
+@import './scss/main';
+
+.header {
+    @include product;
+}
+
+.product-list {
+    @include product;
+}
+
+.footer {
+    background-color: green;
+    width: 100%;
+
+    ul{
+        color: white;
+    }
+}

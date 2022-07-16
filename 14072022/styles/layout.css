@@ -1,0 +1,17 @@
+.header {
+  background-color: blue;
+  border: 1px solid white;
+  color: white;
+  padding: 20px; }
+
+.product-list {
+  background-color: blue;
+  border: 1px solid white;
+  color: white;
+  padding: 20px; }
+
+.footer {
+  background-color: green;
+  width: 100%; }
+  .footer ul {
+    color: white; }

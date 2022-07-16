@@ -1,0 +1,14 @@
+.body {
+  background-color: green; }
+
+.block {
+  background-color: white;
+  border: 1px solid blue;
+  padding: 20px;
+  color: green; }
+
+.div {
+  border: 1px solid blue;
+  padding: 20px;
+  width: 500px;
+  margin: 10px; }

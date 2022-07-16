@@ -1,0 +1,23 @@
+$colorgreen: green;
+$colorwhite: white;
+$width: 500px;
+$padding: 20px; 
+$border: 1px solid blue;
+$margin: 10px;
+
+.body {
+    background-color: $colorgreen;
+}
+.block {
+    background-color:$colorwhite ;
+    border: $border;
+    padding: $padding;
+    color: $colorgreen;
+    
+}
+.div {
+    border: $border;
+    padding: $padding;
+    width: $width;
+    margin: $margin;
+}
