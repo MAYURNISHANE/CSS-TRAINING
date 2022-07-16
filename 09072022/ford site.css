@@ -42,6 +42,9 @@
     color: gray;
 
 }
+.news-underline {
+    text-decoration-line: underline;
+}
 
 .inner-nav {
     width: 18%;
