@@ -1,0 +1,17 @@
+.welcome {
+    border: 2px solid gray;
+    text-align: center;
+    width: 300px;
+    height: 80px;
+    background-color: green;
+    cursor: pointer;
+}
+.welcome:hover {
+    animation-name: colorchange;
+    animation-duration: 3s;
+    background-color: yellow;
+}
+@keyframes colorchange {
+    0% {background-color: blue;}
+    100% {background-color: yellow; width: 150px; height:40px ;}
+}
