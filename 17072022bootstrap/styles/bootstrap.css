@@ -1,0 +1,33 @@
+.inner, .banner-section {
+  max-width: 1300px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.black-color {
+  background-color: black !important; }
+
+.banner-section {
+  margin: 60px auto;
+  border: 0; }
+
+.banner {
+  width: 900px;
+  height: 400px; }
+
+.banner-text {
+  padding-top: 30px; }
+
+.nav-link {
+  color: gray !important; }
+
+.active {
+  color: white !important; }
+
+.card3,
+.title {
+  max-width: 1300px !important;
+  margin: 0 auto !important;
+  overflow: hidden !important; }
+
+.title {
+  text-align: center; }

@@ -1,0 +1,43 @@
+@import './scss/common';
+@import './scss/common2';
+@mixin banner {
+    width: 900px;
+    height: 400px;
+}
+
+.inner, .banner-section {
+    @include width;
+}
+.black-color {
+    background-color: black !important;
+}
+
+
+.banner-section {
+    margin: 60px auto;
+    border: 0;
+}
+
+.banner {
+   @include banner;
+}
+.banner-text {
+    padding-top: 30px;
+}
+
+.nav-link {
+    color: gray !important;
+}
+
+.active {
+    color: white !important;
+}
+
+.card3,
+.title {
+    @include widthimpoortant;
+   
+}
+.title {
+    text-align: center;
+}
